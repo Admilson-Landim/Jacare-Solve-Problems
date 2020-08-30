@@ -3,31 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-        <input type="text" name="text" id="inputText">
-        <button onclick="pushData();">Mostrar</button>
-        <p id="pText"></p>
-
+    <title>Jakare</title>
     <script>
-        // crear array
-        var myArr = ["Q", "A", "D", "E"];
+        function show(){
+            var naInput = document.getElementById('total').value;
 
-        function pushData() {
-            // tomar valor do campo
-            var inputText = document.getElementById('inputText').value;
-            // coloca-lo no array
-            myArr.push(inputText);
-
-            var pval = "";
-
-            for (i = 0; i > myArr.length; i++) {
-                pval = pval + myArr[i];
-            }
-            // mostar elementos
-            document.getElementById('pText').innerHTML = pval;
+            document.getElementById('mostra').innerText = naInput
         }
     </script>
+</head>
+<body>
+    <input type="text" id="total" onclick="show();">
+    <p id="mostra"></p>
 </body>
 </html>
