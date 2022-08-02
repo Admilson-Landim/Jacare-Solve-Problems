@@ -1,0 +1,26 @@
+<OperationRequest xmlns="http://ucc_v2.tmais.cv">
+  <RequestHeader>
+    <Autorization>
+      <UserName>ucc2</UserName>
+      <Password>ucc2@devteam</Password>
+      <CanalCode>1001</CanalCode>
+      <RolesName>ucc2</RolesName>
+    </Autorization>
+    <User>
+      <UserID>4056</UserID>
+    </User>
+    <Token>
+      <TokenID>2A38A4A9316C49E5A833517C45D31070</TokenID>
+    </Token>
+    <RemoteHost>
+      <RemoteIP>1</RemoteIP>
+    </RemoteHost>
+  </RequestHeader>
+  <RequestBody>
+    <SessionTrans>
+      <ObjectID>766705</ObjectID>
+      <UserCreate>4056</UserCreate>
+      <DocType>CLT</DocType>
+    </SessionTrans>
+  </RequestBody>
+</OperationRequest>
